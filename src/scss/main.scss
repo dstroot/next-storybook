@@ -1,0 +1,20 @@
+// Theming bootstrap
+// https://getbootstrap.com/docs/4.0/getting-started/theming/
+
+// To modify an existing color in our $theme-colors map
+// To add a new color to $theme-colors, add the new key and value:
+// To modify an existing color in our $theme-colors map, or
+// to add a new color to $theme-colors, add the new key and value:
+$theme-colors: (
+  'primary': #00a677,
+  'accent': #f2d292,
+);
+
+// variable overrides
+$enable-responsive-font-sizes: true;
+
+// import Bootstrap
+@import 'bootstrap';
+
+// then import components
+@import '../components/NavBar/styles.scss';
