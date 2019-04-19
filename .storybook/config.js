@@ -9,7 +9,7 @@ addParameters({
   options: {
     theme: create({
       base: 'light',
-      brandTitle: 'Our Library',
+      brandTitle: 'NEXT Library',
       // brandUrl: 'https://storybook.js.org',
       // To control appearance:
       // brandImage: 'http://url.of/some.svg',

@@ -2,7 +2,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import Section from '../Section';
 
-storiesOf('NEXT|Section', module)
+storiesOf('NEXT|sections|Section', module)
   .addParameters({
     info: {
       inline: true,

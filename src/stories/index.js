@@ -38,6 +38,6 @@ storiesOf('@Welcome|Welcome', module)
   })
   .add('to Storybook', () => (
     <div>
-      <h1 className="display-4 text-center">Welcome to our storybook!</h1>
+      <h1 className="display-4 text-center">Welcome to the NEXT storybook!</h1>
     </div>
   ));
